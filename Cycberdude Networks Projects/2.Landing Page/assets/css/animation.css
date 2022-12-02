@@ -1,0 +1,28 @@
+/* Animation */
+.local{
+    animation-name: colorchange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorchange {
+    0%{
+        color: rgb(245, 27, 27);
+    }
+
+    25%{
+        color: rgba(243, 227, 8, 0.781);
+    }
+
+    50%{
+        color: rgb(79, 248, 12);
+    }
+
+    75%{
+        color: rgba(10, 64, 243, 0.5);
+    }
+
+    100%{
+        color: rgba(248, 14, 217, 0.5);
+    }
+}
