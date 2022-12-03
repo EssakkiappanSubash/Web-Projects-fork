@@ -1,0 +1,40 @@
+
+/* banner for badroom */
+.banner-badroom{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8)),
+    url(https://st.hzcdn.com/simgs/bd513d7101790ea6_14-3628/home-design.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* banner for dining */
+.banner-dining{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8)),
+    url(https://cdn.decorpad.com/photos/2020/01/27/blue-grasscloth-wallpaper-with-wainscoting-in-dining-room.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* banner for kitchen */
+.banner-kitchen{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8)),
+    url(https://assets.bonappetit.com/photos/610988c188cd52076ad8a114/16:9/w_2560%2Cc_limit/0921-Kitchen-Design-01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* banner for badroom */
+.banner-backyard{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8)),
+    url(https://thearchitectsdiary.com/wp-content/uploads/2021/02/thayer-residence-neumann-mendro-andrulaitis-architects-llp-img_58715c990a3aa422_14-8338-1-cdb3d7b.jpg);
+    background-size: cover;
+    background-position: center;
+}
