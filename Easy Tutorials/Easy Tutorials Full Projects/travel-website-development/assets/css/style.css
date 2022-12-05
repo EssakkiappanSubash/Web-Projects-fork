@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*  header section  */
+#header{
+    padding-top: 30px;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url(../img/travel_site_img/images/banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#header .triptok_Logo{
+    width: 170px;
+    float: left;
+}
+
+.login-btn{
+    width: 120px;
+    padding: 8px 0;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    float: right;
+}
+
+.login-btn:hover{
+    border: 2.4px solid #fff;
+}
+
+#header h1, #header p{
+    text-align: center;
+    color: #fff;
+}
+
+#header h1{
+    margin: 200px 0 0 ;
+}
+
+#header p{
+    margin: 18px 0;
+}
+
+.input-group{
+    width: 90%;
+    max-width: 500px;
+    border-radius: 30px;
+    background-color: #fff;
+    margin: auto;
+    padding: 2px;
+}
+
+.form-control{
+    border: 0 !important;
+    border-radius: 30px !important;
+    margin: 2px;
+    box-shadow: none !important;
+}
+
+.input-group-text{
+    width: 100px;
+    margin: 2px;
+    background-image: linear-gradient(#00ff7e,#1f3d90);
+    border: 0 !important;
+    color: #fff !important;
+    padding: 0 25px;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+}
+/*  header end */
+
+/*  features section */
+.features{
+    margin-top: -50px;
+    padding: 100px 0;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.features-img{
+    position: relative;
+}
+
+.features-img img{
+    width: 100%;
+}
+
+.features-price{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background: #ff5722;
+    color: #fff; 
+    font-weight: 600;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 1px rgba(37,73,214,.18);
+    position: absolute;
+    left: 20px;
+    bottom: -25px;
+}
+
+.features-rating{
+    padding: 3px;
+    float: right;
+    background-color: #fff;
+    bottom: -1px;
+    right: 0;
+    position: absolute;
+}
+
+.features .fa-solid, .features .fa-regular{
+    color: #ff5722;
+    font-size: 15px;
+}
+
+.features-details{
+    padding: 20px;
+    text-align: justify;
+}
+
+.features-details h4{
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.features-details .fa-solid, .features-details .fa-regular{
+    margin-right: 5px;
+}
+
+.features-details span{
+    margin-right: 10px;
+    background-image: linear-gradient(to left,#b8b8b836,#c9c8c831);
+    border-radius: 20px;
+}
+
+.features-box span:hover {
+    background: linear-gradient(to left,#ffd1c367,#fcd6d631);
+}
+
+.features-box{
+    width: 356px;
+    box-shadow: 0 0 10px 1px rgba(37,73,214,.18);
+    transition: .2s;
+}
+
+.features-box:hover{
+    width: 356.8px;
+    box-shadow: 0 0 10px 2px rgba(37,73,214,.4);   
+    border: .2px solid #5e5e5e; 
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.features-box:hover .features-img img{
+
+    box-shadow: 0 0 10px 2px rgba(37,73,214,.4);
+    border-radius: 10px;
+    transition: .3s;
+}
+/*  features end */
+
+/*  gallery section  */
+.gallery{
+    padding: 100px 0;
+    background: #efefef;
+}
+
+.gallery-box img{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.gallery-box img:hover{
+    transform: scale(1.2);
+}
+
+.gallery-box h4{
+    display: block;
+    color: #fff;
+    text-shadow: -2px 2px 2px #000;
+    font-weight: 700;
+    font-size: 20px;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.gallery-box{
+    position: relative;
+}
+/*  gallery end  */
+
+/*  offers section  */
+.offers{
+    height: 80vh;
+    background-image: url(../img/travel_site_img/images/banner2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 12%;
+}
+
+.offers-highlights{
+    padding: 70px 0;
+    background: #000000b3;
+    color: #fff;
+    text-align: center;
+}
+
+.booking-btn{
+    width: 120px;
+    padding: 8px 0;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    margin-top: 20px;
+}
+/*  offers end  */
+
+/*  users-review section  */
+.users-review{
+    padding: 100px 0;
+}
+
+.user-review__copy{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0,0,100,.2);
+    padding-bottom: 50px;
+}
+
+.user-review__copy p{
+    padding: 50px 10px 10px 10px;
+}
+
+.user-review__user{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin: -30px 0 20px 40%;
+}
+
+/*
+.user-review__copy p::before{
+    content: '\201d';
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    color: #6495ed;
+    font-family: sans-serif;
+    left: 44%;
+    top: -20px;
+}  */
+/*  users-review End  */
+
+/*  footer section  */
+.footer{
+    padding: 100px 20px 15px;
+    background-image: linear-gradient(#2d557d,#9610fd);
+    color: #fff;
+}
+
+.footer-logo{
+    width: 150px;
+    margin: 15px 0;
+}
+
+.footer h4{
+    text-align: left;
+    margin: 15px 0 25px;
+}
+
+.footer p{
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 35px;
+}
+
+.footer .col-md-3 .fa-solid,.footer .col-md-3 .fa-brands{
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.footer .col-md-3{
+    width: 260px;
+    margin-left: 25px;
+}
+
+.footer hr{
+    margin-top: 10px;
+    background: #efefef;
+}
+
+.footer .copyRight{
+    text-align: center;
+}
+
+.footer .fa-heart{
+    margin: 0 5px;
+    color: #f44336;
+}
+/*  footer End */
+
+/*  top-arrow section  */
+.top-arrow{
+    top: 90%;
+    transform: translateY(30%);
+    position: sticky;
+    z-index: 1;
+}
+
+.top-arrow .conTainer{
+    margin-right: 50px;
+}
+
+.top-arrow .arrow{
+    text-align: right;
+}
+
+.top-arrow .arrow-text{
+    text-decoration: none;
+    background: #2d2e7d;
+    color: #fff;
+    padding: 5px 15px;
+    font-weight: 600;
+}
+/*  top-arrow End  */
+
