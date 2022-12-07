@@ -1,0 +1,651 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
+/* ================ HEADER ================ */
+header{
+    background: #03838C;
+}
+
+.nav-bar{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .nav__logo-img{
+    width: 216px;
+} */
+
+.navbar__link a{
+    color: #fff;
+    font-size: 18px;
+}
+
+
+
+/* ================ BANNER ================ */
+.banner__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.banner__left{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__text{
+    margin: auto;
+    width: 380px;
+    color: #0c5290;
+}
+
+.banner__text h1{
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.1;
+}
+
+.banner__text p{
+    margin-top: 40px;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.banner__dots-top{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.banner__dots-bottom{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.dots-img, .dots-top, .dots-bottom{
+    height: 100px;
+    overflow: hidden;
+}
+
+.banner__right{
+    margin-bottom: -6px;
+}
+
+.hero-img{
+    width: 100%;
+}
+
+
+
+/* ================ ABOUT TEXT ================ */
+.about{
+    background: #0c5290;
+}
+
+.about__text--block{
+    width: 70%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.about__text--block p{
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+
+
+/* ================ PROTACT ================ */
+.protects__container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.protect{
+    padding: 150px 0;
+}
+
+.protect--add{
+    background: #5bc7e827;
+}
+
+.protect--even{
+    background: #fffffffc;
+}
+
+.org--logo{
+    margin-bottom: 80px;
+}
+
+.org--logo img{
+    height: 130px;
+}
+
+.protect-btn, .org--logo, .protect--logo{
+    display: flex;
+    justify-content: center;
+}
+
+.protect-btn a{
+    padding: 22px 50px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    background: linear-gradient(103deg, #0c7db8, #009aa6 52%, #37bcbd 100%);
+    text-decoration: none;
+}
+
+.protect-btn a:hover{
+    background: #0a82b5;
+}
+
+
+
+/* ================ FOOTER ================ */
+footer{
+    background: linear-gradient(99deg, #0c7db8, #009aa6 52%, #37bcbd 100%);
+    font-size: 18px;
+    color: #fff;
+}
+
+.footer__container{
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.space-div{
+    margin-bottom: 18px;
+}
+
+.footer-super{
+    font-size: 9px;
+}
+
+.footer__link{
+    color: #fff;
+    /* border-bottom: 2px solid #fff;
+    text-decoration: none; */
+}
+
+.footer__right{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__links ul{
+    display: flex;
+    list-style: none;
+}
+
+.footer__links ul li{
+    padding-left: 15px;
+}
+
+.link-border{
+    padding-right: 15px;
+    border-right: 2px solid #fff;
+}
+
+.footer__logo{
+    display: flex;
+    justify-content: right;
+}
+
+.footer__logo-img{
+    width: 250px;
+}
+
+
+
+            @media screen and (max-width: 1800px) {
+                .container{
+                    width: 80%;
+                }
+            }
+
+            @media screen and (max-width: 1600px){
+                /* ================ BANNER ================ */
+                .dots-img, .dots-top, .dots-bottom{
+                    height: 90px;
+                }
+                
+                /* ================ PROTACT ================ */
+                .protect{
+                    padding: 130px 0;
+                }
+
+                .org--logo{
+                    margin-bottom: 70px;
+                }
+            }
+
+            @media screen and (max-width: 1400px) {
+                .container{
+                    width: 85%;
+                }
+
+                /* ================ BANNER ================ */
+                .dots-img, .dots-top, .dots-bottom{
+                    height: 80px;
+                }
+
+                /* ================ PROTACT ================ */
+                .org--logo img{
+                    height: 120px;
+                }
+
+
+                /* ================ FOOTER ================ */
+                .footer__links ul li{
+                    padding-left: 10px;
+                }
+                
+                .link-border{
+                    padding-right: 10px;
+                }
+            }
+
+            @media screen and (max-width: 1300px) {
+                /* ================ ABOUT TEXT ================ */
+                .about__text--block{
+                    width: 850px;
+                }
+
+
+                /* ================ FOOTER ================ */
+                .footer__right{
+                    width: 358px;
+                }
+            }
+
+            @media screen and (max-width: 1150px) {
+                /* ================ ABOUT TEXT ================ */
+                .about__text--block{
+                    width: 820px;
+                }
+            }
+
+
+
+/* ================ MEDIA QUERIES (SMALL SCREEN) ================ */
+
+@media screen and (max-width: 1024px) {
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+
+
+    /* ================ BANNER ================ */
+    .banner__text{
+        margin-left: 105px;
+        width: 340px;
+    }
+
+    .banner__text h1{
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 1.1;
+    }
+    
+    .banner__text p{
+        margin-top: 35px;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    .banner__right p{
+        height: 128px;
+    }
+
+    
+
+    /* ================ ABOUT TEXT ================ */
+    .about__text--block{
+        width: 780px;
+        margin: auto;
+        padding: 80px 0px;
+    }
+
+
+
+    /* ================ PROTACT ================ */
+    .protect{
+        padding: 80px 0px;
+    }
+
+    .org--logo img{
+        height: 100px;
+    }
+
+    .protect-btn a{
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .dots-img, .dots-top, .dots-bottom{
+        height: 60px;
+    }
+
+
+
+    /* ================ FOOTER ================ */
+    footer{
+        font-size: 16px;
+    }
+
+    .footer__left{
+        width: 470px;
+    }
+
+    .footer__links ul li{
+        padding-left: 13px;
+    }
+    
+    .link-border{
+        padding-right: 13px;
+    }
+}
+
+
+
+/* ================ MEDIA QUERIES (TABLETS) ================ */
+
+@media screen and (max-width: 900px) {
+    .container{
+        width: 85%;
+    }
+
+
+
+    /* ================ HEADER ================ */
+    .nav-bar{
+        padding: 40px 0;
+        justify-content: center;
+    }
+
+    .navbar__link{
+        display: none;
+    }
+
+
+    /* ================ BANNER ================ */
+    .banner__container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .banner__text{
+        width: 380px;
+        margin: 50px auto;
+    }
+
+    .banner__text h1{
+        font-size: 50px;
+    }
+    
+    .banner__text p{
+        font-size: 26px;
+    }
+
+    .banner__right p{
+        height: 192px;
+    }
+
+    .visible{
+        display: none;
+    }
+
+
+
+    /* ================ ABOUT TEXT ================ */
+    .about__text--block{
+        width: 560px;
+        padding: 60px 0px;
+    }
+
+    .about__text--block p{
+        font-size: 24px;
+        line-height: 1.4;
+    }
+
+
+
+    /* ================ PROTACT ================ */
+
+    .protect{
+        padding: 80px 0px;
+    }
+
+    .protects__container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .org--logo img{
+        height: 100px;
+    }
+
+    .protect-btn a{
+        padding: 20px 35px;
+        font-size: 16px;
+    }
+
+    /* ================ BANNER ================ */
+    .dots-img, .dots-top, .dots-bottom{
+        height: 80px;
+    }
+
+
+    /* ================ FOOTER ================ */
+    footer{
+        background: linear-gradient(to left, #16a4b8, #16a4b8, #26b5a7);
+        font-size: 18px;
+    }
+
+    .footer__container{
+        width: 570px;
+        padding: 50px 0;
+        flex-direction: column-reverse;
+    }
+
+    .footer__right{
+        margin: 10px 0 50px 0;
+        flex-direction: column-reverse;
+    }
+
+    .footer__logo{
+        margin-bottom: 50px;
+        justify-content: left;
+    }
+
+    .footer__logo-img{
+        width: 330px;
+    }
+
+    .footer__links ul li{
+        padding-left: 12px;
+    }
+    
+    .link-border{
+        padding-right: 12px;
+    }
+    
+    .footer__links ul li:nth-child(1){
+        padding-left: 0;
+    }
+}
+
+            /* ================ ABOUT TEXT ================ */
+            @media screen and (max-width: 700px) {
+                .about__text--block{
+                    width: 520px;
+                }
+            }
+
+
+
+/* ================ MEDIA QUERIES (MOBILES) ================ */
+
+@media screen and (max-width: 600px) {
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+
+    /* ================ HEADER ================ */
+    .nav-bar{
+        padding: 30px 0;
+        justify-content: center;
+    }
+
+    .nav__logo-img{
+        width: 260px;
+    }
+
+    .navbar__link{
+        display: none;
+    }
+
+
+    /* ================ BANNER ================ */
+    .banner__text{
+        width: 280px;
+        margin: 40px auto;
+    }
+
+    .banner__text h1{
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 1;
+    }
+    
+    .banner__text p{
+        margin-top: 25px;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 1.1;
+    }
+
+    .banner__right p{
+        height: 93.75px;
+    }
+
+    .dots-img, .dots-top, .dots-bottom{
+        height: 50px;
+    }
+
+
+
+    /* ================ ABOUT TEXT ================ */
+    .about__text--block{
+        width: 310px;
+    }
+
+    .about__text--block p{
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+
+
+    /* ================ PROTACT ================ */
+    .protects__container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .protect{
+        padding: 60px 30px;
+    }
+
+    .org--logo img{
+        height: 100px;
+    }
+
+    .protect-btn a{
+        padding: 22px 50px;
+        font-size: 20px;
+    }
+
+
+    /* ================ FOOTER ================ */
+    footer{
+        background: linear-gradient(to left, #16a4b8, #16a4b8, #26b5a7);
+        font-size: 15px;
+    }
+
+    .footer__container{
+        width: 310px;
+        padding: 50px 0;
+        flex-direction: column-reverse;
+    }
+
+    .footer__right{
+        margin: 10px 0 50px 0;
+        width: 330px;
+        flex-direction: column-reverse;
+    }
+
+    .footer__logo{
+        margin-bottom: 50px;
+        justify-content: left;
+    }
+
+    .footer__logo-img{
+        width: 290px;
+    }
+
+    .footer__links ul li{
+        padding-left: 13px;
+    }
+    
+    .link-border{
+        padding-right: 13px;
+    }
+    
+    .footer__left{
+        width: 310px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+
+    /* ================ BANNER ================ */
+    .dots-img, .dots-top, .dots-bottom{
+        height: 40px;
+    }
+
+    .protect{
+        padding: 60px 20px;
+    }
+}
+
+
+
+
