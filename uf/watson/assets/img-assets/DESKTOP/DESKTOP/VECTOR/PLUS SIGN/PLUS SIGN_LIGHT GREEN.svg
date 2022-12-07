@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47.788" height="47.788" viewBox="0 0 47.788 47.788">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1ec4bd;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="PLUS_SIGN" data-name="PLUS SIGN" transform="translate(0)">
+    <rect id="Rectangle_225" data-name="Rectangle 225" class="cls-1" width="47.788" height="47.788" rx="23.894" transform="translate(0)"/>
+    <g id="PLUS" transform="translate(9.856 10)">
+      <path id="Path_235" data-name="Path 235" class="cls-2" d="M10509,10969.78v27.342" transform="translate(-10495.329 -10969.78)"/>
+      <path id="Path_236" data-name="Path 236" class="cls-2" d="M0,0V27.341" transform="translate(27.341 13.671) rotate(90)"/>
+    </g>
+  </g>
+</svg>

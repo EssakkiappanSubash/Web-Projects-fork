@@ -1,0 +1,24 @@
+<svg id="CLOSE_BUTTON" data-name="CLOSE BUTTON" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #2d4b53;
+        stroke-width: 4px;
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Ellipse_24" data-name="Ellipse 24" class="cls-1">
+    <circle class="cls-2" cx="30" cy="30" r="30"/>
+    <circle class="cls-3" cx="30" cy="30" r="28"/>
+  </g>
+  <line id="Line_33" data-name="Line 33" class="cls-1" x2="23.516" y2="23.516" transform="translate(18.242 18.242)"/>
+  <line id="Line_34" data-name="Line 34" class="cls-1" x1="23.516" y2="23.516" transform="translate(18.242 18.242)"/>
+</svg>

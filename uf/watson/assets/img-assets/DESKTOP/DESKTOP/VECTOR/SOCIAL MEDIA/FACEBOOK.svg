@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="51.369" height="51.369" viewBox="0 0 51.369 51.369">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #055e8a;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="FACEBOOK" transform="translate(0 0)">
+    <path id="Path_584" data-name="Path 584" class="cls-1" d="M51.369,25.684A25.684,25.684,0,1,1,25.684,0,25.684,25.684,0,0,1,51.369,25.684"/>
+    <path id="Path_585" data-name="Path 585" class="cls-2" d="M185.708,143h7.007V126.836h5.176l1.035-6.529h-6.211V115.37c0-1.831,1.752-2.866,3.424-2.866h3.026v-5.414l-5.414-.239c-5.176-.318-8.042,3.742-8.042,8.6v4.857h-5.892v6.529h5.892Z" transform="translate(-164.839 -97.934)"/>
+  </g>
+</svg>
