@@ -1,0 +1,113 @@
+
+.video-bg{
+    background-color: #000000;
+    z-index: -1;
+}
+
+.menubody-sectinons{
+    padding: 100px 0 0;
+    background-color: #000;
+}
+
+.banner{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.banner-copys>h2{
+    margin-top: 70px;
+    color: #E35205;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+.banner-copys>h2>sup{
+    font-size: 18px;
+}
+
+.banner-copys>p{
+    margin: 30px 100px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;    
+    text-align: center;
+}
+
+.banner-icons{
+    padding: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+.banner-icon{
+    margin: 0 10px;
+}
+.banner-iconimg{
+    display: flex;
+    justify-content: center;
+}
+.banner-icontext>p{
+    margin: 20px 0 0;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+/* banner Section */
+
+/* patientsurvey Section */
+.patientsurvey__container{
+    width: 950px;
+    margin: 100px auto;
+    color: #fff;
+}
+
+.patientsurvey__container>h3{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.patientsurvey__block{
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.patientsurvey-left,
+.patientsurvey-right{
+    padding: 0 50px;
+    align-items: center;
+}
+
+.patientsurvey-left{
+    padding: 20px 50px 15px;
+    border-right: 2px solid #fff;
+}
+
+.patientsurvey-left>p,
+.patientsurvey-right>p{
+    margin-bottom: 10px;
+    padding: 0 30px;
+    font-size: 20px;
+    text-align: center;
+}
+/* patientsurvey Section */
+
+
+/* million-affected section */
+.million-affected__content{
+    width: 1200px;
+    margin: 150px auto 100px;
+    text-align: center;
+}
+
+.million-affected__content>h2{
+    color: #E35205;
+    font-size: 32px;
+    font-weight: 600;
+}
+.million-affected__content p{
+    color: #fff;
+    font-size: 18px;
+}
+/* million-affected section */
