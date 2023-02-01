@@ -5,7 +5,7 @@
 }
 
 .menubody-sectinons{
-    padding: 100px 0 0;
+    padding: 10px 0 0;
     background-color: #000;
 }
 
@@ -56,7 +56,7 @@
 /* patientsurvey Section */
 .patientsurvey__container{
     width: 950px;
-    margin: 100px auto;
+    margin: 60px auto;
     color: #fff;
 }
 
@@ -96,8 +96,8 @@
 
 /* million-affected section */
 .million-affected__content{
-    width: 1200px;
-    margin: 150px auto 100px;
+    width: 750px;
+    margin: 150px auto 0px;
     text-align: center;
 }
 
@@ -107,7 +107,118 @@
     font-weight: 600;
 }
 .million-affected__content p{
+    margin: 40px 50px 0 ;
     color: #fff;
     font-size: 18px;
 }
+
+.million-affected__animation{
+    width: 1200px;
+    margin: 28px auto 100px;
+    text-align: center;
+}
+
+.million-affected__animation>h6{
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.survey__blocks{
+    margin: auto 100px;
+    display: flex;
+    flex: 0 0 50%;
+    justify-content: space-between;
+}
+
+.survey-block{
+    width: 300px;
+}
+
+.survey-text{
+    margin: 16px 15px 0;
+    color: #fff;
+}
+.survey-text>p{
+    font-size: 18px;
+}
+
+.million-affected__quotes{
+    width: 575px;
+    margin: 130px auto 100px;
+    color: #fff;
+    text-align: center;
+}
+
+.million-affected__quotes>p{
+    font-size: 28px;
+    position: relative;
+    margin-bottom: 22px;
+}
+
+.million-affected__quotes>span{
+    font-size: 18px;
+}
 /* million-affected section */
+
+
+/* Impactded callouts section */
+.impact-sign-callout{
+    width: 870px;
+    margin: auto;
+    padding: 50px 25px;
+    border: 2px solid #fff;
+    display: flex;
+    gap: 2rem;
+}
+
+.impact-sign-callout__img{
+    margin-left: 30px;
+}
+
+.impact-sign-callout__content{
+    padding: 60px 0;
+}
+
+.impact-sign-callout__content>h4{
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 38px;
+    line-height: 1;
+}
+.impact-sign-callout__content button.btn{
+    width: 250px;
+}
+
+
+.impact-cause-callout{
+    margin-bottom: 150px;
+}
+
+.impact-cause-callout{
+    width: 850px;
+    margin: 100px auto;
+    padding: 60px 25px;
+    display: flex;
+    align-items: center;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+.impact-cause-callout__content > h3{
+    margin-bottom: 25px;
+    color: #E35205;
+    font-size: 38px;
+    line-height: 1;
+}
+.impact-cause-callout__content > p{
+    margin: 0 40px 40px 0;
+    font-size: 18px;
+    color: #fff;
+}
+/* Impactded callouts section */
+
+
+.cards-container{
+    margin: 0 0 150px;
+}

@@ -1,0 +1,89 @@
+
+.video-bg{
+    background-color: #000000;
+    z-index: -1;
+}
+
+.menubody-sectinons{
+    padding: 10px 0 0;
+    background-color: #000;
+}
+
+.banner{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.banner-copys>h2{
+    margin: 70px 20px 0;
+    color: #E35205;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+.banner-copys>h2>sup{
+    font-size: 18px;
+}
+
+.banner__imgblock{
+    margin: 80px 0 100px;
+    display: flex;
+    gap: 5rem;
+}
+
+.banner__imgblock-left{
+    margin: 40px 0;
+    padding: 50px 50px 50px 0;
+    border-right: 2px solid #fff;
+    align-items: center;
+}
+
+.banner__imgblock-leftimg{
+    display: flex;
+    justify-content: center;
+}
+
+.banner__imgblock-left>p{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+/* banner Section */
+
+/* mgd Section */
+.mgdbox-container{
+    width: 800px;
+    margin: auto;
+    padding: 50px;
+    border: 2px solid #fff;
+}
+
+.mgdbox-container>h2{
+    margin-bottom: 50px;
+    color: #E35205;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.mgdbox-container>p,
+.mgdbox-icon>p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.mgdbox-iconsbox{
+    padding: 40px 0 10px;
+    display: flex;
+    gap: 50px;
+}
+
+.mgdbox-icon{
+    width: 200px;
+}
+.mgdbox-iconimg{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}

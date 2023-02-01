@@ -58,6 +58,34 @@
 
 
 /* Menu's page */
+.quotes{
+    width: 575px;
+    margin: 130px auto 100px;
+    color: #fff;
+    text-align: center;
+}
+.quotes>p{
+    font-size: 28px;
+    position: relative;
+    margin-bottom: 22px;
+}
+.quotes>p::before{
+    content: url(/assets/image/0-0-quotation-mark-1x.png);
+    top: -5px;
+    left: -50px;
+    position: absolute;
+}
+.quotes>p::after{
+    content: url(/assets/image/0-0-quotation-mark-1x.png);
+    transform: rotate(180deg);
+    bottom: -8px;
+    right: -50px;
+    position: absolute;
+}
+.quotes>span{
+    font-size: 18px;
+}
+
 /* Card-box */
 .cards-block>h2{
     width: 600px;
@@ -93,6 +121,10 @@
     display: flex;
     justify-content: center;
     text-decoration: none;
+}
+
+.card-btn>a>button.btn{
+    width: 200px;
 }
 /* Card-box */
 
