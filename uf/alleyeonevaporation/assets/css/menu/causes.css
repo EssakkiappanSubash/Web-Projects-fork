@@ -87,3 +87,71 @@
     display: flex;
     justify-content: center;
 }
+
+.mgdcycle-container{
+    width: 740px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.mgdcycle-container>h2{
+    color: #E35205;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.mgdcycle-container p{
+    margin: 40px 110px 30px;
+    color: #fff;
+    font: 400 20px/26px 'Source Sans Pro';
+}
+
+.mgdcycle-container .f-note{
+    margin: 0px;
+    font-size: 14px;
+}
+/* mgd Section */
+
+/* causes callout Section */
+.readpaper__container{
+    margin: auto;
+    padding: 10px 0;
+    align-items: start;
+}
+
+.readpaper-body{
+    margin-right: 8rem;
+}
+
+.readpaper-body p:first-child{
+    color: #fff;
+    font: 600 22px/30px 'Source Sans Pro';
+}
+
+.readpaper-body p:nth-child(2){
+    margin: 20px 20px 20px 0;
+    color: #fff;
+    font: 400 20px/26px 'Source Sans Pro';
+}
+
+.impact-cause-callout{
+    color: #fff;
+    width: 860px;
+    margin: 100px auto;
+    padding: 80px 0px;
+    display: flex;
+    gap: 7rem;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.impact-cause-callout h3{
+    padding-bottom: 35px;
+    color: #E35205;
+    font: 700 38px/40px 'Barlow Condensed';
+    /* font-size: 38px;
+    font-weight: 700; */
+}
+.impact-cause-callout h3 sup{
+    line-height: 0px;
+}
