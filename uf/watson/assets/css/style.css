@@ -43,7 +43,7 @@
     margin-top: 30px;
     width: 100%;
     height: 773px;
-    background-image: url(../img-assets/DESKTOP/DESKTOP/Homepage-Images/img-1298x538-hero-bg-dsk.webp);
+    background-image: url(../img/desktop/homepage-images/img-1298x538-hero-bg-dsk.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -147,12 +147,18 @@ p.p-24{
     border: 2px solid #A5A5A5;
     border-radius: 14px;
     transition: var(--transition);
+    cursor: pointer;
 }
 
 .protect-tab:hover{
     color: #fff;
     background: #212D65;
     transition: var(--transition);
+}
+
+.protect-tab.active{
+    color: #fff;
+    background: #212D65;
 }
 
 
@@ -289,6 +295,60 @@ p.p-24{
     font-size: 24px;
     line-height: 39px;
 }
+
+.about__container > .about__form > .mail > input{
+    width: 800px;
+    height: 42px;
+    padding: 3px;
+    font-size: 22px;
+    color: #8F3A2D;
+    font-weight: 300;
+    text-align: center;
+    background: #FAEFEE;
+    border: 1px solid #93392a;
+    border-radius: 18px;
+}
+.about__container > .about__form > .mail > input::placeholder{
+    color: #8F3A2D;
+}
+
+.about__container > .about__form > .checkbox{
+    margin: 20px 0 40px;
+    color: #8F3A2D;
+}
+
+.about__container > .about__form > .checkbox > label > input[type=checkbox]{
+    margin: 10px 10px 0 0;
+    width: 20px;
+    height: 20px;
+    accent-color: #8F3A2D;
+    background: #FAEFEE;
+}
+
+.about__container > .about__form > .checkbox > label{
+    margin-bottom: 5px;
+    align-self: center;
+}
+
+.about__container > .about__form > button{
+    padding: 5px 52px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #8F3A2D;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+.about__container > .about__form > button:hover{
+    color: #fff;
+    background-color: #8F3A2D;
+}
+
+.about-box > img{
+    height: 156px;
+    margin-top: -150px;
+    transform: translateX(550%);
+}
 /* ---- mission section ---- */
 
 
@@ -419,6 +479,7 @@ p.p-24{
         margin: 5px 4px;
         padding: 10px 15px;
         border-radius: 5px;
+        cursor: pointer;
     }
 
     .protect-tab:hover{
