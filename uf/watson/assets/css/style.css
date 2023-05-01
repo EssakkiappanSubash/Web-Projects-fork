@@ -118,7 +118,7 @@ p.p-24{
 }
 
 .protect__top h3{
-    margin: 20px 0;
+    margin: 20px -10px;
     font-size: 64px;
     font-weight: 900;
     color: var(--color-navy);
@@ -149,13 +149,12 @@ p.p-24{
     transition: var(--transition);
     cursor: pointer;
 }
-
 .protect-tab:hover{
     color: #fff;
     background: #212D65;
+    border: 2px solid #212D65;
     transition: var(--transition);
 }
-
 .protect-tab.active{
     color: #fff;
     background: #212D65;
@@ -176,26 +175,17 @@ p.p-24{
 
 .protect--container{
     width: 200px;
-    height: 330px;
+    height: 325px;
     transition: var(--transition);
+    cursor: pointer;
 }
-
-.protect--container:hover{
+.protect--container:hover, .protect--container.onclick{
     box-shadow: 0 9px 10px rgba(0, 0, 0, 0.182) ;
     transition: var(--transition);
-}
-
-.protect--container-onclick{
-    box-shadow: 0 9px 10px rgba(0, 0, 0, 0.182) ;
-    transition: var(--transition);
-}
-
-.protect--container-offclick{
-    box-shadow: none;
 }
 
 .protect-img{
-    height: 220px;
+    height: 210px;
 }
 
 .protect-img img{
@@ -212,14 +202,17 @@ p.p-24{
 .plus__sign-btn img{
     display: none;
 }
-
+.plus__sign-btn img.active{
+    margin: auto;
+    display: block;
+}
 .protect--container:hover .plus__sign-btn img{
     margin: auto;
     display: block;
 }
 
 .text-ltgrn, .text-ylw, .text-org, .text-drkgrn{
-    padding-bottom: 69px;
+    padding-bottom: 70px;
 }
 
 .text-blue{color: #1E2E74;} .text-red{color: #953C2D;} .text-ltgrn{color: #18606D;} .text-ylw{color: #5C5851;} .text-org{color: #52412E;} .text-drkgrn{color: #163E61;}
@@ -323,6 +316,7 @@ p.p-24{
     height: 20px;
     accent-color: #8F3A2D;
     background: #FAEFEE;
+    cursor: pointer;
 }
 
 .about__container > .about__form > .checkbox > label{
@@ -347,7 +341,7 @@ p.p-24{
 .about-box > img{
     height: 156px;
     margin-top: -150px;
-    transform: translateX(550%);
+    transform: translate(550%, 5px);
 }
 /* ---- mission section ---- */
 
@@ -437,12 +431,17 @@ p.p-24{
         width: 100%;
         display: block;
     }
-
+    /* ---- banner ---- */
 
     /* ---- protect section ---- */
     .protect__container{
         padding: 20px 0;
         text-align: center;
+    }
+
+    .protect__top{
+        margin: auto;
+        width: 350px;
     }
 
     .protect__top h3{
@@ -452,11 +451,6 @@ p.p-24{
 
     .protect__top h3 sup{
         font-size: 10px;
-    }
-
-    .protect__top{
-        margin: auto;
-        width: 350px;
     }
 
     .protect__top p{
@@ -501,7 +495,7 @@ p.p-24{
     }
 
     .protect-img, .protect-img img{
-        width: 220px;
+        width: 200px;
         margin: 10px auto;
     }
 
@@ -511,20 +505,22 @@ p.p-24{
         margin: 40px auto;
     }
 
-    .protect-container__text-ltgrn .protect-img, .protect-container__text-ltgrn .protect-img img,
-    .protect-container__text-ylw .protect-img, .protect-container__text-ylw .protect-img img{
-        width: 240px;
-        margin: 20px auto;
-    }
-
     .protect-container__text-ltgrn .protect-img,
     .protect-container__text-ylw .protect-img{
-        height: 170px;
+        width: 240px;
+        height: 185px;
+        margin: 0px auto 20px;
+    }
+    
+    .protect-container__text-ltgrn .protect-img img,
+    .protect-container__text-ylw .protect-img img{
+        width: 240px;
+        margin: -0px auto 0;
     }
 
     .protect-container__text-org, .protect-container__text-drkgrn{
         width: 230px;
-        height: 360px;
+        height: 340px;
         margin: 40px auto;
     }
 
@@ -536,7 +532,7 @@ p.p-24{
 
     .protect-container__text-org .protect-img,
     .protect-container__text-drkgrn .protect-img{
-        height: 280px;
+        height: 250px;
     }
 
     .protect-name{
@@ -546,7 +542,7 @@ p.p-24{
     }
 
     .text-ltgrn, .text-ylw{
-        padding-bottom: 37px;
+        padding-bottom: 22px;
     }
 
     .plus__sign-btn img{
@@ -566,6 +562,7 @@ p.p-24{
 
     .device-hide{
         display: block;
+        overflow: hidden;
     }
 
     .protect__description-top{
@@ -595,10 +592,11 @@ p.p-24{
     }
 
     .protect-span{
-    color: #707070;
-    font-size: 10px;
-    font-weight: 700;
-    display: none;
+        margin: auto 30px;
+        color: #707070;
+        font-size: 10px;
+        font-weight: 700;
+        display: none;
     }
 
     .protect__description-bottom span{
@@ -612,38 +610,33 @@ p.p-24{
         font-size: 15px;
         line-height: 23px;
     }
+    /* ---- protect section ---- */
 
-    /* .protect-container__text-blue{
-        width: 300px;
-        height: 1130px;
+    /* ---- mission section ---- */
+    .about-box{
+        margin-bottom: 50px;
+        background: #FAEFEE;
+        border-radius: 30px;
     }
 
-    .protect-container__text-red{
-        width: 300px;
-        height: 1042px;
-    } 
-
-    .protect-device-container.protect-container__text-ltgrn{
-        width: 300px;
-        height: 1081px;
+    .about__container{
+        padding: 70px 20px;
     }
 
-    .protect-device-container.protect-container__text-ylw{
+    .about__container > .about__form > .mail > input{
         width: 300px;
-        height: 993px;
+        height: 42px;
+        padding: 3px;
+        font-size: 22px;
+        font-weight: 300;
     }
 
-    .protect-device-container.protect-container__text-org{
-        width: 300px;
-        height: 1106px;
+    .about-box > img{
+        height: 100px;
+        margin-top: -150px;
+        transform: translate(110%, 5px);
     }
-
-    .protect-device-container.protect-container__text-drkgrn{
-        width: 300px;
-        height: 922px;
-    } */
-
-
+    /* ---- mission section ---- */
 
 }
 
