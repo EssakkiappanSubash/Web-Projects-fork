@@ -175,8 +175,12 @@ nav .fa-bars{
     transition: .5s;
 }
 
-#testimonilas .col-md-4:hover{
+#testimonilas .hover:hover img{
     transform: scale(1.1);
+}
+
+#testimonilas .hover:hover .review{
+    transform: scale(1.04);
 }
 
 .review .fa-brands{
@@ -374,7 +378,7 @@ nav .fa-bars{
     margin: -30px 0 20px 44%; 
 }
 
-.user-review p::before{
+/* .user-review p::before{
     content: '\201d';
     display: block;
     position: absolute;
@@ -383,7 +387,7 @@ nav .fa-bars{
     font-family: sans-serif;
     left: 44%;
     top: -20px;
-}
+} */
 
 .review-quat{
     margin: -100px;
