@@ -5,7 +5,7 @@
 
 /*     --  Header  --    */
 #header{
-    background-image: url(/assets/img/Fitness_img/banner.jpg);
+    background-image: url(../img/Fitness_img/banner.jpg);
     height: 80vh;
     background-size: cover;
     background-position: center;
